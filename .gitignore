@@ -1,0 +1,22 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets — never commit these
+.env
+.env.*
+*.token
+*.key
+
+# Local clutter
+.claude/
+Thumbs.db
+
+# Photographed course material — stays local, never published.
+# The assignment text lives in docs/lab-brief.md instead (plain text, as the brief asks).
+Screenshot *.png
+*.png
